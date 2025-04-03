@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: hanken;
+    src: url(fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(221, 100%, 96%);
+    line-height: 1;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    max-width: 40%;
+    margin: 95px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px hsl(224, 100%, 84%);
+}
+.box-1{
+    height: 400px;
+    width: 100%;
+    max-width: 54%;
+    background:  hsl(241, 69%, 49%);
+    margin: 0 30px;
+    position: relative;
+    right: 53px;
+    text-align: center;
+    border-radius: 20px;
+}
+.result{
+    margin: 25px 0;
+    padding: 3px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-family: hanken;
+}
+.score{
+    font-family: hanken;
+    background-color:  hsl(234, 79%, 33%);
+    display: inline-block;
+    margin: 3px 0;
+    padding: 40px 5px;
+    text-align: center;
+    border-radius: 100%;
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    font-weight: 600;
+}
+p.score::first-line{
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-family: hanken;
+    margin: 18px 0;
+    padding: 10px;
+    padding: 2px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+.remark{
+    margin: 4px 0;
+    padding: 10px;
+    color: hsl(241, 100%, 89%);
+    font-family: hanken;
+    font-size: 14px;
+}
+h4{
+    font-family: hanken;
+    margin: 30px 0;
+    padding: 13px;
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 100px;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+.score-container{
+    font-family: hanken;
+    font-size: small;
+    font-weight: lighter;
+    position: relative;
+    right: 40px;
+    bottom: 15px;
+}
+.sum{
+    margin: 30px 0;
+    font-weight: light;
+}
+span{
+    margin-left: 100px;
+}
+span.space{
+    margin-left: 5px; 
+}
+.rr{
+    color: rgb(247, 122, 149);
+    display: inline-block;
+    position: relative;
+    top: 7.3px;
+    font-weight: bold;
+}
+.nn{
+    display: inline-block;
+    position: relative;
+    bottom: 5.4px;
+    left: 16px;
+    font-weight: bold;
+}
+p.dash{
+    display: inline-block;
+    position: relative;
+    bottom: 5.4px;
+    left: 20px;
+    font-weight: bold;
+    color: grey;
+}
+p.all{
+    display: inline-block;
+    position: relative;
+    bottom: 5.3px;
+    left: 22px;
+    font-weight: bold;
+    color: grey;
+}
+.nn1{
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    right: 21.5px;
+    font-weight: bold;
+}
+.nn2{
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    right: 20.5px;
+    font-weight: bold;
+}
+p.dash1{
+    display: inline-block;
+    position: relative;
+    top: 5.7px;
+    right: 18px;
+    font-weight: bold;
+    color: grey;
+}
+p.dash2{
+    display: inline-block;
+    position: relative;
+    top: 5.7px;
+    right: 16px;
+    font-weight: bold;
+    color: grey;
+}
+p.all1{
+    display: inline-block;
+    position: relative;
+    bottom: 6.4px;
+    left: 142px;
+    font-weight: bold;
+    color: grey;
+}
+p.all2{
+    display: inline-block;
+    position: relative;
+    bottom: 6.4px;
+    left: 142px;
+    font-weight: bold;
+    color: grey;
+}
+.score-reaction{
+    font-size: small;
+    width: 100%;
+    margin-bottom: 14px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 238, 242);
+}
+.rr2{
+    color: rgb(253, 197, 92);
+    display: inline-block;
+    position: relative;
+    top: 6.8px;
+    font-weight: bold;
+}
+.score-memory{
+    font-size: small;
+    margin-bottom: 14px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 224);
+}
+.rr3{
+    color: lightseagreen;
+    display: inline-block;
+    position: relative;
+    top: 6.8px;
+    font-weight: bold;
+}
+.score-verbal{
+    font-size: small;
+    margin-bottom: 14px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 255, 254);
+}
+.rr4{
+    color: hsl(224, 54%, 44%);
+    display: inline-block;
+    position: relative;
+    top: 6.8px;
+    font-weight: bold;
+}
+.score-visual{
+    font-size: small;
+    margin-bottom: 14px;
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(252, 100%, 97%);
+}
+.container:hover{
+    position: relative;
+    top: 10px;
+}
+div img{
+    width: 20%;
+    max-width: 8%;
+}
+@media screen and (max-width: 1400px){
+  .container{
+    max-width: 49%;
+  }
+}
+@media screen and (max-width: 1225px){
+    .container{
+      max-width: 49%;
+    }
+    p.dash1{
+        top: -7px;
+        left: 135px;
+    }
+    p.all1{
+        left: 138px;
+    }
+  }
+@media screen and (max-width: 1223px){
+    p.dash2{
+       right: 16px;
+    }
+    p.all2{
+        left: 142px;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    p.dash2{
+        top: -6px;
+        left: 134px;
+     }
+     p.all1{
+        left: 135px;
+    }
+    p.all2{
+        left: 135px;
+    }
+  }
+  @media screen and (max-width: 1100px){
+    .container{
+        max-width: 60%;
+    }
+  }
+@media screen and (max-width: 900px){
+    .container{
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 900px){
+    .container{
+    max-width: 85%;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+    max-width: 100%;
+    margin: 100px 10px;
+    }
+    .nn1{
+       left: 5px;
+       top: -7px;
+    }
+    .nn2{
+       left: 5px;
+       top: -7px;
+    }
+    p.dash1{
+        left: 10px;
+    }
+    p.dash2{
+        left: 10px;
+        top: -7px;
+    }
+    p.all1{
+        left: 12px;
+    }
+    p.all2{
+        left: 12px;
+    }
+    .nn{
+        left: 5px;
+    }
+    p.dash{
+        left: 10px;
+    }
+    p.all{
+        left: 13px;
+    }
+}
+
+
+
+
+
+
+
